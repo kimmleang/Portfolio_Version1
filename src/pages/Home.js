@@ -10,7 +10,6 @@ function Home() {
   return (
     <section>
       <Container fluid className="home-section" id="home">
-        <Particle />
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
@@ -42,6 +41,7 @@ function Home() {
         </Container>
       </Container>
       <Container fluid className="home-about-section" id="about">
+      <Particle />
         <Container className="home-content">
             <Row>
                 <h1 className="text-center">Technologies and Frameworks</h1>
